@@ -16,6 +16,16 @@ body {
     direction: rtl;
 }
 
+.bday-background{
+  background: url("https://2.wlimg.com/product_images/bc-full/dir_33/978513/fresh-organic-garlic-2220166.jpeg") no-repeat center fixed;
+  background-size: cover;
+  /* filter: opacity(0.05); */
+  width: 100%;
+  height: 100%;
+  /* top: 50%; */
+  z-index: -1;
+  position: absolute;
+}
 
 
 .title{
