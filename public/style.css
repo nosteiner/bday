@@ -6,9 +6,12 @@ body {
   /* background: url('noamBDAY.jpg') no-repeat center fixed;
   background-size: cover; */
   height: 100%;
- overflow: hidden;
+
 }
 
+.no-scroll{
+  overflow: hidden;
+}
 
 
 *{
