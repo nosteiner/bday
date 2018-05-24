@@ -20,7 +20,7 @@ body {
 }
 
 .bday-background{
-  background: url("https://2.wlimg.com/product_images/bc-full/dir_33/978513/fresh-organic-garlic-2220166.jpeg") no-repeat center fixed;
+  background: url("images/ants.jpg") no-repeat center fixed;
   background-size: cover;
   /* filter: opacity(0.05); */
   width: 100%;
@@ -194,7 +194,7 @@ div.desc {
 
 @media only screen and (max-width: 700px) {
   .responsive {
-      width: 49.99999%;
+      width: 49.9999999%;
       margin: 6px 0;
   }
 }
@@ -227,7 +227,7 @@ div.desc {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
-  padding-top: 5%; /* Location of the box */
+  padding-top: 13%; /* Location of the box */
   padding-left: 10%;
   padding-right: 10%;
   left: 0;
