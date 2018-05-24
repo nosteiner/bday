@@ -6,7 +6,7 @@ body {
   /* background: url('noamBDAY.jpg') no-repeat center fixed;
   background-size: cover; */
   height: 100%;
- 
+ overflow: hidden;
 }
 
 
@@ -98,6 +98,17 @@ font-size: 36px; /* Some tweener fallback that doesn't look awful */
  width: 100%;
   height: 100%;
   /* top: 50%; */
+  position: absolute;
+}
+
+.video-background{
+  background-color: #000;
+  background-size: cover;
+  /* filter: opacity(0.05); */
+  width: 100%;
+  height: 100%;
+  /* top: 50%; */
+  z-index: -1;
   position: absolute;
 }
 

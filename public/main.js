@@ -12,8 +12,8 @@ let html = ("<form>" +
 
 // =============start page press pace to go to validation
 $('#face').on('click', () => {
-
-    location.href = '/trivia';
+setTimeout(function(){ 
+    location.href = '/trivia'},1000)
 })
 
 // =============start trivia============================
