@@ -110,7 +110,7 @@ $('.question').on('click','#btn-continue3', () => {
     if($input.val()==="נמלה"){
         $('#response').empty()
         $('.question').empty()
-        $('#response').append("<p class=center>הוכחת שאתה הוא נועם זלומונסקי ילד היומולדת, הינך מועבר לאיחולים שלשמם נתכנסנו</p>");
+        $('#response').append("<p class=center>תהליך האימות הושלם בהצלחה, הינך מועבר לאיחולים</p>");
 
         setTimeout(function(){ 
             location.href = '/greetings';
@@ -139,7 +139,7 @@ console.log(modal)
             
 // Get the image and insert it inside the modal - use its "alt" text as a caption
 
-$('.myImg').on('click', function(){
+$('myImg').on('click', function(){
     console.log('p')
 var img = this.closest('#thisImg');
 console.log(img)
