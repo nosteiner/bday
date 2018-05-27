@@ -11,7 +11,7 @@ app.use(express.static('node_modules'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
-app.get('/home', function(request, response){
+app.get('/', function(request, response){
     response.sendFile(__dirname + '/public/home.html');
   });
   
