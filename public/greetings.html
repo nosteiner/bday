@@ -2,51 +2,106 @@
 <html>
 
 <head>
+    <link href="https://fonts.googleapis.com/css?family=Secular+One" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
-    <link href="bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <!-- <link href="bootstrap/dist/css/bootstrap.css" rel="stylesheet"> -->
     <link rel="stylesheet" href="style.css" type="text/css">
     <title>NOAM's Bday!</title>
 </head>
-
-<body >
-    
-    <div class="responsive">
-        <div class="gallery">
-            <img class="myImg" id="thisImg" src="images/surf.jpg" alt="Trolltunga, Norway" width="300" height="200">
-            <div class="desc">בלה בלה בלה</div>
-        </div>
-    </div>
-
-
-    <div class="responsive">
-        <div class="gallery">
-            <img class="myImg" id="thisImg" src="images/strings.gif" alt="Trolltunga, Norway" width="300" height="200">
-            <div class="desc">בלה בלה בלה</div>
-        </div>
-    </div>
-
-    <div class="responsive">
-        <div class="gallery">
-            <img class="myImg" id="thisImg" src="images/gif.gif" alt="Trolltunga, Norway" width="300" height="200">
-            <div class="desc">בלה בלה בלה</div>
-        </div>
-    </div>
-
-    <div class="responsive">
-        <div class="gallery">
-            <img class="myImg" id="thisImg" src="images/Math.jpg" alt="Trolltunga, Norway" width="300" height="200">
-            <div class="desc">Add a description of the image here</div>
-        </div>
-    </div>
+<style>
+    * {
+        box-sizing: border-box;
+    }
 
     
+    .row {
+        display: -ms-flexbox; /* IE10 */
+        display: flex;
+        -ms-flex-wrap: wrap; /* IE10 */
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
+    
+    /* Create four equal columns that sits next to each other */
+    .column {
+        -ms-flex: 24.999999999%;/* IE10 */
+        flex: 24.999999999%;
+        max-width:24.999999999%;
+        padding: 0 4px;
+    }
+    
+    .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+    }
+    
+    /* Responsive layout - makes a two column-layout instead of four columns */
+    @media screen and (max-width: 800px) {
+        .column {
+            -ms-flex: 50%;
+            flex: 50%;
+            max-width: 50%;
+        }
+    }
+    
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+        .column {
+            -ms-flex: 100%;
+            flex: 100%;
+            max-width: 100%;
+        }
+    }
+    </style>
+<body>
+
+    <div class="row">
+        <div class="column">
+            <img class="myImg responsive" id="thisImg" src="images/ribua.jpg" alt="תשיג את המטרות שאתה מציב לעצמך" style="width:100%">
+            
+        
+        
+    </div>
+
+        <div class="column">
+                <img class="myImg responsive" id="thisImg" src="images/shoes.jpg" alt="תהיה חופשי ומאושר (בכפכפים)" style="width:100%">
+
+            <img class="myImg responsive" id="thisImg" src="images/strings.gif" alt="תמשיך בנחישות ובתושייה לפתור בעיות מורכבות בדרכים יצירתיות"
+            style="width:100%">
+            
+        </div>
+
+        <div class="column">
+            <img class="myImg responsive" id="thisImg" src="images/gif.gif" alt=" תמיד תרגיש בנוח איתי ותדע שיש מקום שבו אתה יכול להיות בדיוק עצמך"
+            style="width:100%">
+            <img class="myImg responsive" id="thisImg" src="images/tired.jpg" alt="תמלא את הלוז בכל מה שעושה לך נעים" style="width:100%">
+
+            
+           
+        </div>
+
+        <div class="column">
+                <img class="myImg responsive" id="thisImg" src="images/surf.jpg" alt="תרכוש תחביבים חדשים ותפתח את עצמך" style="width:100%">
+                <div class="myImg video responsive" style="width:100%" class="myImg responsive" id="thisImg">
+                        <iframe  width="100%" height="300" src="https://www.youtube.com/embed/EEOp-FaekSY?rel=0&autoplay=1" frameborder="0"
+                            allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+
+
     <!-- The Modal -->
     <div id="myModal" class="modal">
-            <span class="close">&times;</span>
-            <img class="modal-content" id="img01" src>
-            <div id="caption"></div>
-          </div>
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01" src>
+        <div id="caption"></div>
+    </div>
+
+
+
 
 
 
