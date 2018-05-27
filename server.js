@@ -15,8 +15,8 @@ app.get('/home', function(request, response){
     response.sendFile(__dirname + '/public/home.html');
   });
   
-  app.get('/trivia', function(request, response){
-    response.sendFile(__dirname + '/public/trivia.html');
+  app.get('/validation', function(request, response){
+    response.sendFile(__dirname + '/public/validation.html');
   });
   app.get('/video', function(request, response){
     response.sendFile(__dirname + '/public/video.html');

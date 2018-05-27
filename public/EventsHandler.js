@@ -7,7 +7,7 @@ class EventsHandler {
     startTrivia() {
         $('#face').on('click', () => {
             setTimeout(function () {
-                location.href = '/trivia'
+                location.href = '/validation'
             }, 1000)
         })
     }
