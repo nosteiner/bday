@@ -25,7 +25,7 @@ $('#btn-start').on('click', () => {
 
 $('.question').on('click', '#btn-continue1', () => {
     let $input = $('#input')
-    
+    console.log($input.val())
     if ($input.val() === "נקטרינה") {
         qRender.correctMessage("אתה גאון!", "correct")
 

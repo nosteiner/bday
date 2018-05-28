@@ -8,7 +8,7 @@ class QRender {
     QnewHtml(question, number) {
         let html = ("<form>" +
             "<div class=question-title>" + question + "</div>" +
-            "<input type=text id=input>" +
+            "<input type=text class=form-control-sm id=input>" +
             "<button type=submit class=btn id=btn-continue" + number + ">המשך</button>" +
             "</form>")
         return html
